@@ -1,0 +1,77 @@
+<!-- To get jumbotron working make sure bootstrap is enabled in the settings -->
+
+<div class='container'>
+  <div class='jumbotron'>
+    <div class='row'>
+      <div class='col-xs-12'>
+<!-- H1 for the top header with name -->
+<h1>Charles Darwin</h1>
+<!-- H2 for flavour text -->
+<h2>The father of evolutionary theory</h2>
+        <br></br>
+<!-- inserting the image of Darwin, using responsive to adjust size based on user resolution -->
+  <div class='thumbnail'><img src='http://www.popsci.com/sites/popsci.com/files/styles/large_1x_/public/import/2013/images/2013/04/Darwin.jpg?itok=tZs4DzXm'>
+  <!-- contain the caption class within the div for the image, and it will insert as a caption, else it will appear under the image as normal text! -->
+        <div class='caption text-center'>Charles Darwin was an english naturalist and geologist, who spent most of his life developing the theory of natural selection, in which the struggle for existance causes similar effects to those found from artificial selection in agriculture.</div>
+      </div>
+  </div>
+      <div class='col-xs-12 col-sm-10 col-sm-offlset-1 col-md-8 col-md-offset-2'>
+<!-- timeline of his life -->
+  <p id="ptext">Here's a brief timeline of his life:<p>
+  <!-- Use li to do a single line, use <b> to bold small sections -->
+        <li><b>1809</b> - Born in Shrewsbury, England</li>
+        <li><b>1831</b> - Beings his voyage on the Beagle</li>
+        <li><b>1835</b> - The Beagle arrives at Galapagos Island</li>
+        <li><b>1836</b> - Charles returns home and begins publishing his theories</li>
+  <li><b>1837</b> - He begins his first theories on species mutation</li>
+  <li><b>1839</b> - Charles marries Emma Wedgewood</li>
+  <li><b>1842</b> - Work begins on the descent of modification</li>
+  <li><b>1856</b> - The theory of natural selection is developed</li>
+  <li><b>1859</b> - On the origin of species by natural selection is published</li>
+  <li><b>1864</b> - Charles recieves the Copley medal from the Royal Society of London</li>
+  <li><b>1871</b> - Descent of Man, and Selection in Relation to Sex was published</li>
+  <li><b>1882</b> - Charles Darwin died and was buried at Westminster Abbey</li>
+      </div>
+   </div>
+<br></br>
+<br></br>
+ <p id="ptext">For more information about Charles Darwin, visit his <a href="https://en.wikipedia.org/wiki/Charles_Darwin" target="_blank"> wikipedia page</a>.</p>
+  </div>
+    </div>
+  </div>
+
+<footer>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-lg-12'>
+        <ul class='list-inline' id='footer'>
+          <hr>
+            <p>Written and coded by <a href="https://www.freecodecamp.com/tribalizzles" target="_blank">Joseph Isles</a>.</p>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+/* Add the css details in here, such as font size, style, picture effects etc. */
+h1 {
+  text-align: center;
+  font-family: 'Tahoma', san-serif;
+}
+
+h2 {
+  text-align: center;
+  font-style: italic;
+}
+
+footer {
+  padding: 10px 0;
+  background: (192, 192, 192, 0.9);
+  text-align: center;
+  font-family: "Lato", "Helvetica Neue", Helvetica,Arial,sans-serif;
+}
+
+#ptext {
+  font-family:  "Lato", "Helvetica Neue", Helvetica,Arial,sans-serif;
+  font-size: 200%;
+}
